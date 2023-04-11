@@ -1,0 +1,132 @@
+Protel Design System Design Rule Check
+PCB File : D:\elec\UniProj\shed\hardwre\shed.PcbDoc
+Date     : 2023/4/11
+Time     : 22:14:18
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: NONET_L04_P004 In net GND On Bottom Layer 1
+   Polygon named: NONET_L03_P003 In net GND On Bottom Layer
+   Polygon named: NONET_L02_P000 In net GND On Top Layer
+   Polygon named: NONET_L01_P001 In net GND On Top Layer 1
+
+Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C19-1(1600mil,410mil) on Top Layer 1 And Pad C18-1(1650mil,420mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C27-1(865mil,719.685mil) on Top Layer 1 And Pad C31-1(955mil,746.732mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad USBC1-A1(289.936mil,1627.718mil) on Top Layer 1 And Pad C32-2(343.268mil,1625mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Q1-4(1110mil,360mil) on Top Layer 1 And Pad C6-1(1180mil,260.315mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad C7-2(1450mil,285.039mil) on Top Layer 1 And Pad TP2-1(1560mil,250mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net VCC_5V Between Pad C8-2(1370mil,285.039mil) on Top Layer 1 And Pad R2-2(1373.465mil,40mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U8-3(400mil,1386.929mil) on Top Layer 1 And Pad R13-1(480mil,1373.268mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad USBC1-1(259.687mil,1325.556mil) on Multi-Layer And Pad USBC1-A12(289.946mil,1363.941mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad USBC1-B1(289.945mil,1375.755mil) on Top Layer 1 And Pad USBC1-A12(289.946mil,1363.941mil) on Top Layer 1 
+   Violation between Un-Routed Net Constraint: Net NetUSBC1_A8,B8 Between Pad USBC1-A8(289.941mil,1446.63mil) on Top Layer 1 And Pad USBC1-B8(289.941mil,1564.73mil) on Top Layer 1 
+Rule Violations :10
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L01_P001) on Top Layer 1 
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L02_P000) on Top Layer 
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L03_P003) on Bottom Layer 
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L04_P004) on Bottom Layer 1 
+Rule Violations :4
+
+Processing Rule : Width Constraint (Min=4mil) (Max=19.685mil) (Preferred=7.874mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=196.85mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1000mil,470mil) from Top Layer 1 to Bottom Layer 1 And Via (1020mil,470mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1000mil,470mil) from Top Layer 1 to Bottom Layer 1 And Via (980mil,470mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1005mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (1025mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1005mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (985mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1025mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (1045mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1045mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (1065mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1065mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (1085mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1085mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (1105mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1090mil,180mil) from Top Layer 1 to Bottom Layer 1 And Via (1110mil,180mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1110mil,180mil) from Top Layer 1 to Bottom Layer 1 And Via (1130mil,180mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1150mil,150mil) from Top Layer 1 to Bottom Layer 1 And Via (1150mil,170mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1150mil,170mil) from Top Layer 1 to Bottom Layer 1 And Via (1150mil,190mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (1150mil,190mil) from Top Layer 1 to Bottom Layer 1 And Via (1150mil,210mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (9.838mil < 10mil) Between Via (573.771mil,1751.476mil) from Top Layer 1 to Bottom Layer 1 And Via (583.771mil,1770.677mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (9.838mil < 10mil) Between Via (598.771mil,1751.476mil) from Top Layer 1 to Bottom Layer 1 And Via (608.771mil,1770.677mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (9.838mil < 10mil) Between Via (623.771mil,1751.476mil) from Top Layer 1 to Bottom Layer 1 And Via (633.771mil,1770.677mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (9.838mil < 10mil) Between Via (648.771mil,1751.476mil) from Top Layer 1 to Bottom Layer 1 And Via (658.771mil,1770.677mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (9.838mil < 10mil) Between Via (673.771mil,1751.476mil) from Top Layer 1 to Bottom Layer 1 And Via (683.771mil,1770.677mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (9.18mil < 10mil) Between Via (698.771mil,1751.476mil) from Top Layer 1 to Bottom Layer 1 And Via (707.253mil,1770.677mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (9.502mil < 10mil) Between Via (700mil,1520mil) from Top Layer 1 to Bottom Layer 1 And Via (708.482mil,1539.553mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (745mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (765mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (765mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (785mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (785mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (805mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (805mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (825mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (825mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (845mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (845mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (865mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (865mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (885mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (885mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (905mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (905mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (925mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (925mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (945mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (945mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (965mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (960mil,450mil) from Top Layer 1 to Bottom Layer 1 And Via (960mil,470mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (960mil,450mil) from Top Layer 1 to Bottom Layer 1 And Via (980mil,450mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (960mil,470mil) from Top Layer 1 to Bottom Layer 1 And Via (980mil,470mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (965mil,610mil) from Top Layer 1 to Bottom Layer 1 And Via (985mil,610mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Hole To Hole Clearance Constraint: (8.189mil < 10mil) Between Via (980mil,450mil) from Top Layer 1 to Bottom Layer 1 And Via (980mil,470mil) from Top Layer 1 to Bottom Layer 1 
+Rule Violations :36
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Via (676.929mil,1005mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (676.929mil,1040mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (676.929mil,925mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (676.929mil,965mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (715mil,1005mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (715mil,1040mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (715mil,925mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (715mil,965mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (760mil,1005mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (760mil,1040mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (760mil,925mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (760mil,965mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (805mil,1005mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (805mil,1040mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (805mil,925mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (805mil,965mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (847.994mil,1468.443mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (847.994mil,1518.443mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (847.994mil,1573.443mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (850mil,2035mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (851.097mil,1701.097mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (851.097mil,1751.097mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (872.994mil,1468.443mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (872.994mil,1518.443mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (872.994mil,1573.443mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (875mil,2035mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (876.097mil,1701.097mil) from Top Layer 1 to Bottom Layer 1 
+   Violation between Net Antennae: Via (876.097mil,1751.097mil) from Top Layer 1 to Bottom Layer 1 
+Rule Violations :28
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 78
+Waived Violations : 0
+Time Elapsed        : 00:00:02
